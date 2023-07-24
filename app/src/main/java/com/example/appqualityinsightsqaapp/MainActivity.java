@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                throw new ArrayIndexOutOfBoundsException("Test crash 2");
+                throw new ArrayIndexOutOfBoundsException("Test crash with index out of bounds");
             }
         });
     }
