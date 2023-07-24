@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
                 try {
-                    throw new Exception("This is test");
+                    throw new RuntimeException("Wow.. new exception added to see the diff");
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
